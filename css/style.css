@@ -1,0 +1,139 @@
+*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;padding:0;margin:0;direction:ltr}
+
+body {
+    background: #cc5757;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header_real {
+    width: 1200px;
+    height: 650px;
+    margin: 8% 22rem;
+    background: #FFFFFF;
+    border-radius: 28px;
+}
+
+.navigtion {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.navigtion-nav__center__logo {
+    display: flex;
+    justify-content: start;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    font-size: 3em;
+}
+
+.navigtion-nav__center__logo span {
+    color: #FF4646;
+}
+
+.navigtion-nav__center__product {
+    display: flex;
+    align-items: center;   
+}
+
+.navigtion-nav__center__product a {
+    margin-left: 3rem;
+    color: #000000;
+    font-family: 'Gilroy';
+    font-size: .5em;
+    font-style: normal;
+    line-height: 47px;
+    transition: all .4s;
+}
+
+.navigtion-nav__center__product a:hover {
+   border: 1px solid #FF4646;
+   background: #FF4646;
+   color: white;
+   border-radius: 5px;
+   padding: 10px;
+}
+
+.header-title__orginal {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    margin-top: 5rem;
+}
+
+.header-title__orginal h3 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4em;
+    line-height: 3.5rem;
+}
+
+.header-title__orginal span {
+    font-weight: 500;
+}
+
+.header-title__orginal p {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    margin-top: 10px;
+    line-height: 1.6rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 20px 40px;
+    outline: none;
+    border: none;
+    border-radius: 37px;
+}
+
+.button-header {
+    background-color: #FF4646;
+    color: white;
+    box-shadow:  0px 18px 50px rgba(255, 70, 70, 0.2);
+    cursor: pointer;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3em;
+    transition: all .3s;
+}
+
+.button-header:hover {
+    opacity: .7;
+}
+
+i.fa  {
+    margin-left: 1rem;
+    border: 1px solid #FFFFFF;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 18px 50px rgba(255, 70, 70, 0.2);
+    cursor: pointer;
+}
+
+i.fa:hover {
+    opacity: .7;
+}
+
+.headr-img img {
+    position: absolute;
+   margin-left: 42.2rem;
+   margin-top: -32rem;
+   height: 40.7rem;
+   border-radius: 0 28px 28px 0;
+}   
